@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en-GB">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>Henry's Dashboard</title>
+    <meta name="description" content="A personal dashboard that runs privately on its owner's own computer." />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <h1>Henry's Dashboard</h1>
+      <p class="lead">A personal dashboard that runs privately on its owner's own computer.</p>
+
+      <p>
+        Henry's Dashboard is a single-user app. It runs on Henry's own laptop and is only reachable from that laptop (and,
+        optionally, from his own devices over a private network). It is not a public service, and nobody else can sign up
+        for it or use it.
+      </p>
+
+      <h2>What it shows</h2>
+      <ul>
+        <li>The date, time and today's calendar events</li>
+        <li>University deadlines</li>
+        <li>An investment portfolio summary, read from a spreadsheet that the app creates in its owner's Google Drive</li>
+        <li>Later, unread email subjects from its owner's own inboxes</li>
+      </ul>
+
+      <h2>How it uses Google</h2>
+      <p>
+        The app signs in to its owner's Google account to read a holdings spreadsheet it created itself. It asks only for
+        access to files it creates, so it cannot see any other Drive files. All access is read-only apart from setting up
+        that one spreadsheet, and it never sends, changes or deletes email.
+      </p>
+
+      <div class="panel">
+        <a href="privacy.html">Privacy policy</a>
+      </div>
+
+      <footer>Henry's Dashboard is a personal project and is not affiliated with Google.</footer>
+    </main>
+  </body>
+</html>
